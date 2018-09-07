@@ -18,7 +18,9 @@ export class HeroeComponent implements OnInit {
   };
 
   constructor(private _heroeservice: HeroesService,
-              private router: Router) { }
+              private router: Router) {
+
+              }
 
   ngOnInit() {
   }
